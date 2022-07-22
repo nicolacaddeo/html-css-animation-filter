@@ -162,6 +162,16 @@
 }
 
 /* Nono esercizio */
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(.5) sepia(1);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
 /* Decimo esercizio */
 
 /* /ANIMATIONS */
