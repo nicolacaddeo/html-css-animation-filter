@@ -135,8 +135,32 @@
 }
 
 /* Sesto esercizio */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
 /* Settimo esercizio */
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.5);
+    filter: sepia(1);
+}
+
 /* Ottavo esercizio */
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.5);
+    filter: sepia(1);
+    border-radius: 10px;
+}
+
 /* Nono esercizio */
 /* Decimo esercizio */
 
