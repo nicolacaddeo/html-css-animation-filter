@@ -173,5 +173,16 @@
 }
 
 /* Decimo esercizio */
+.ex-10-icon {
+    animation: infinitespin 1s linear infinite;
+}
+
+@keyframes infinitespin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* Undicesimo esercizio */
 
 /* /ANIMATIONS */
