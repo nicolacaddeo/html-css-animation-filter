@@ -184,5 +184,22 @@
 }
 
 /* Undicesimo esercizio */
+.ex-11-icon:hover {
+    animation: notToomuchSpin 2s linear;
+}
+
+@keyframes notToomuchSpin {
+    0% {
+        transform: rotate(0);
+    }
+
+    95% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /* /ANIMATIONS */
